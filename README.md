@@ -44,5 +44,5 @@ This project is licensed under the MIT License
 
 ## Acknowledgments
 
-* Big thanks to [Billie Thompson](https://gist.github.com/PurpleBooth) for providing me with this amazing README template
+* Big thanks to [Billie Thompson](https://gist.github.com/PurpleBooth) for providing the world with this amazing README template
 
