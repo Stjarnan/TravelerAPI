@@ -12,6 +12,7 @@ router.get('/api', function(req, res){
 router.get('/api/getall', function(req, res){
     async function fetchAll(){
         let data = await actions.getAll();
+        res.setHeader('Access-Control-Allow-Origin','*');
         res.json(data);
     }
     fetchAll();
@@ -21,6 +22,7 @@ router.get('/api/getall', function(req, res){
 router.get('/api/country/:country', function(req, res){
     async function fetchByCountry(){
         let data = await actions.getByCountry(req.params.country);
+        res.setHeader('Access-Control-Allow-Origin','*');
         res.json(data);
     }
     fetchByCountry();
@@ -30,6 +32,7 @@ router.get('/api/country/:country', function(req, res){
 router.get('/api/destination/:destination', function(req, res){
     async function fetchByDestination(){
         let data = await actions.getByDestination(req.params.destination);
+        res.setHeader('Access-Control-Allow-Origin','*');
         res.json(data);
     }
     fetchByDestination();
