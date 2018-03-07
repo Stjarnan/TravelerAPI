@@ -33,6 +33,13 @@ node server.js
 
 and visit localhost:3000/api in your browser to see the project
 
+## Status
+
+This project is not actively being developed, future changes could include the addition of:
+
+* Routes to create and save users
+* Routes to load user data
+
 ## Built With
 
 * [Express](http://expressjs.com/) - The web framework used
